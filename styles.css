@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Створіть сторінку HTML з трьома блоками, розміщеними по центру. Нехай в першому блоці буде розміщено зображення на ваш вибір, в другому - текст на ваш вибір, а в третьому - div елемент який, містить в собі або зображення, або текст, які розміщенні по центру блоку і займають приблизно 50% ширини блоку */
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
