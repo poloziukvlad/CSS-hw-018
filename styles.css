@@ -12,16 +12,32 @@
     align-items: center;
 }
 
-img{
+.box {
     width: 300px;
-    height: 300px;
+    height: 300px;    
+}
+
+.image1 {
+    background-image: url(https://www.mooc.org/hs-fs/hubfs/learn-programming-career-jpg.jpeg?width=500&name=learn-programming-career-jpg.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 
     filter: brightness(150%) contrast(150%) drop-shadow(16px 16px 20px blue);
 }
 
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
 
+.image2 {
+    background-image: url(https://cdn.sanity.io/images/tlr8oxjg/production/9f15109746df254c5a030a7ba9239f8a4bb5dadb-1456x816.png?w=3840&q=100&fit=clip&auto=format);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
