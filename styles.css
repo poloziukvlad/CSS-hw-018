@@ -27,7 +27,8 @@
     background-size: cover;
     border-radius: 20px;
 
-    filter: brightness(80%) contrast(150%) drop-shadow(16px 16px 20px rgb(24, 231, 175));
+    filter: brightness(100%) contrast(100%) ;
+    transition: filter 1s ease;
 }
 
 .text {
@@ -40,7 +41,7 @@
     font-weight: bold;
 
     color: white;
-    filter: blur(1px) contrast(300%) drop-shadow(10px 10px 20px yellow);
+    filter: blur(1px) contrast(100%) drop-shadow(10px 10px 20px yellow);
 }
 
 .image2 {
@@ -59,12 +60,32 @@
     font-size: 30px;
     font-weight: bold;
 
-    filter: brightness(80%) contrast(120%) drop-shadow(16px 16px 20px rgb(25, 251, 254));
+    filter: brightness(100%) contrast(100%) ;
+    transition: filter 1s ease;
 }
 
-.image2 p {
+.image2 .text1 {
     backdrop-filter: blur(2px) contrast(200%) opacity(50%);
+    transition: color 1s ease-out;
+}
+
+.text1:hover {
+    color: rgb(234, 255, 0);
+    cursor: pointer;
+}
+
+.image1:hover {
+    filter: brightness(120%) contrast(150%) drop-shadow(16px 16px 20px rgb(24, 231, 175));
+}
+
+.image2:hover {
+    filter: brightness(120%) contrast(150%) drop-shadow(16px 16px 20px rgb(25, 251, 254));
+    cursor: pointer;
 }
 
 
+.text:hover {
+    filter: contrast(300%) drop-shadow(10px 10px 10px rgb(68, 66, 106));
+    cursor: pointer;
+}
 
